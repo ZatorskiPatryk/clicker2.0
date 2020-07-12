@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="count" id="count">licznik: 0</div>
+    <div class="container">
+      <section class="s1">
+        <img src="dig.png" alt="foto1" />
+        <div>praca praca</div>
+        <button onclick="dig()">kop dół</button>
+      </section>
+      <section class="s2 hiddenTop">
+        <img
+          src="kisspng-pickaxe-the-elder-scrolls-v-skyrim-dragonborn-organizacje-z-serii-gier-the-elder-scrolls-5b3deeef1fad98.7411089215307855191298.png"
+          alt="foto2"
+        />
+        <div>kilof</div>
+        <div id="pickaxeCost">koszt:10</div>
+        <button onclick="buyPickaxe()">kup</button>
+      </section>
+      <section class="s3 hiddenTop">
+        <img
+          src="kisscc0-dwarf-5b40b3683f37e7.681434891530966888259.png"
+          alt="foto3"
+        />
+        <div>krasnal-gornik</div>
+        <div id="dwarfCost">koszt:500</div>
+        <button onclick="buyDwarf()">wynajmij</button>
+      </section>
+      <section class="s4 hiddenBottom">
+        <img src="arrowup.png" alt="foto4" />
+        <div>ulepsz kilof</div>
+        <div id="upgrade1cost">koszt:10</div>
+        <button onclick="upgradePickaxe()">kup</button>
+      </section>
+      <section class="s5 hiddenBottom">
+        <img src="arrowup.png" alt="foto5" />
+        <div id="text">nakarm krasnale</div>
+        <div id="upgrade2cost">koszt:100</div>
+        <button onclick="upgradeDwarfs()">kup</button>
+      </section>
+      <section class="s6 hiddenBottom">
+        <img src="excavator.png" alt="foto1" />
+        <div>koparka odkrywkaowa koparkator 6000</div>
+        <div>koszt:1 000 00</div>
+        <button onclick="atention()">kup-OSTROŻNIE</button>
+      </section>
+    </div>
+    <div class="popup"></div>
+    <script src="js.js"></script>
+  </body>
+</html>
